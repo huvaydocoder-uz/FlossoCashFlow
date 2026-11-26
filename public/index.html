@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <!-- viewport-fit=cover: iPhone'da ekran chetlari (Dynamic Island, pastki chiziq) to'g'ri hisoblanadi.
+         maximum-scale=1: maydonga bosilganda sahifa kattalashib ketmaydi. -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover"
+    />
+    <title>%WEB_TITLE%</title>
+
+    <!-- iPhone: "Ekranga qo'shish" orqali alohida ilova kabi ochilishi uchun -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Flosso CashFlow" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="theme-color" content="#720F12" />
+    <link rel="apple-touch-icon" href="/icons/flosso-cashflow-180.png" />
+    <link rel="manifest" href="/manifest.json?v=4" />
+
+    <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
+    <style id="expo-reset">
+      /* These styles make the body full-height */
+      html,
+      body {
+        height: 100%;
+        background-color: #f8f1f0;
+      }
+      /* These styles disable body scrolling if you are using <ScrollView> */
+      body {
+        overflow: hidden;
+        overscroll-behavior: none;
+        -webkit-tap-highlight-color: transparent;
+      }
+      /* These styles make the root element full-height */
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+    </style>
+  </head>
+
+  <body>
+    <noscript>Ilovani ishlatish uchun JavaScript'ni yoqing.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

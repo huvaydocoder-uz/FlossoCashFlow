@@ -1,0 +1,10 @@
+# Vercel serverga yuborilmaydigan fayllar (u yerda qayta o'rnatiladi / kerak emas)
+node_modules
+.expo
+dist
+ios
+android
+.claude
+# Kalitlar Vercel sozlamalarida (Environment Variables) saqlanadi
+.env
+.env*.local
